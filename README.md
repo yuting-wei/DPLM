@@ -51,4 +51,4 @@ python evaluate.py --model_name path_to_trained_dplm
 
 ## Acknowledgements
 
-The code structure is inspired by [TempoBERT](https://github.com/guyrosin/tempobert/tree/main). The dataset is adapted from the [Ancient Chinese Corpus with Word Sense Annotation](https://github.com/iris2hu/ancient_chinese_sense_annotation). We sincerely thank the authors of these projects for their contributions to the community.
+The code structure is inspired by [TempoBERT](https://github.com/guyrosin/tempobert/tree/main). The eval datasets are adapted from the [Ancient Chinese Corpus with Word Sense Annotation](https://github.com/iris2hu/ancient_chinese_sense_annotation). We sincerely thank the authors of these projects for their contributions to the community.
