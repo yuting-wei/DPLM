@@ -28,7 +28,10 @@ To set up the environment, follow these steps:
     ```bash
     pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
     ```
+    
+4. Download our training dataset:
 
+    Please download the dataset from Google Drive [here](https://drive.google.com/file/d/1EQT6-kQ8p8CfA7JbztmytSPzH8bF_Xm8/view?usp=sharing) and place it in the `train_datasets` folder.
 
 ## Training
 
