@@ -16,11 +16,11 @@ Data is stored in a pkl file with the following format:
 
 ### Classified into 3 historical periods
 
-| Dynasty        | ID |
-| -------------- | -- |
-| Ancient        | 1  |
-| Middle Ancient | 2  |
-| Near Ancient   | 3  |
+| Dynasty        | Correct ID | ID in PKL |
+| -------------- | ---------- | --------- |
+| Ancient        |      3     |     1     |
+| Middle Ancient |      2     |     2     |
+| Near Ancient   |      1     |     3     |
 
 ### Classified into 8 historical periods
 
