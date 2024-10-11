@@ -122,11 +122,11 @@ def str_to_bool(value):
 
 
 def save_results(train_file, model_name, acc_results, predict_test_data):
-    folder_path = f"eval_3/{model_name.split('/')[-1]}"
+    folder_path = f"results/eval_3/{model_name.split('/')[-1]}"
     if "checkpoint" in model_name:
-        predict_path = f"predict_3/{model_name.split('/')[-2]}_{model_name.split('/')[-1].split('-')[-1]}"
+        predict_path = f"results/predict_3/{model_name.split('/')[-2]}_{model_name.split('/')[-1].split('-')[-1]}"
     else:
-        predict_path = f"predict_3/{model_name.split('/')[-1]}"
+        predict_path = f"results/predict_3/{model_name.split('/')[-1]}"
 
     os.makedirs(folder_path, exist_ok=True)
     os.makedirs(predict_path, exist_ok=True)
