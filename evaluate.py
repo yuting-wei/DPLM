@@ -38,8 +38,8 @@ if __name__ == "__main__":
 
     import os
 
-    folder_path = f"results/{model_name.split('/')[-1]}"
-    summary_file = f"results/{model_name.split('/')[-2][-7:]}_{model_name.split('/')[-1]}_all.txt"
+    folder_path = f"results/eval_3/{model_name.split('/')[-1]}"
+    summary_file = f"results/eval_3/{model_name.split('/')[-2][-7:]}_{model_name.split('/')[-1]}_all.txt"
 
     txt_files = sorted([f for f in os.listdir(folder_path) if f.endswith(".txt")], key=sort_key)
 
