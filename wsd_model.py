@@ -8,7 +8,7 @@ import re
 def train_time(train_data, bert_model, batch_size, hidden_layers_number):
 
     "{'word': word, 'word_id': word_id, 'sense_id': sense_id, 'examples': [[train_examples, dynasty],...]}"
-    dynastys_dict = {'1':'3','2':'2','3':'1'}
+    dynastys_dict = {'1':'3','2':'2','3':'1'} # Only used when evaluating 3 historical periods
 
     train_embeddings = {}
     for data in train_data:
@@ -47,7 +47,7 @@ def train_time(train_data, bert_model, batch_size, hidden_layers_number):
 def evaluate_time(test_data, bert_model, train_embeddings, batch_size, hidden_layers_number):
     true_predict = 0
     all_examples = 0
-    dynastys_dict = {'1':'3','2':'2','3':'1'}
+    dynastys_dict = {'1':'3','2':'2','3':'1'} # Only used when evaluating 3 historical periods
     predict_test_data = []
     for data in test_data:
         
