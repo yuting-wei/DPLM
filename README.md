@@ -49,6 +49,24 @@ To evaluate the model, use the following command, replacing `path_to_trained_dpl
 python evaluate.py --model_name path_to_trained_dplm
 ```
 
+## Citation
+
+Please cite our paper if you use our code, dataset, or compare with our model:
+```
+@article{WEI2025103925,
+title = {A diachronic language model for long-time span classical Chinese},
+journal = {Information Processing & Management},
+volume = {62},
+number = {1},
+pages = {103925},
+year = {2025},
+issn = {0306-4573},
+doi = {https://doi.org/10.1016/j.ipm.2024.103925},
+url = {https://www.sciencedirect.com/science/article/pii/S030645732400284X},
+author = {Yuting Wei and Meiling Li and Yangfu Zhu and Yuanxing Xu and Yuqing Li and Bin Wu}
+}
+```
+
 ## Acknowledgements
 
 The code structure is inspired by [TempoBERT](https://github.com/guyrosin/tempobert/tree/main). The eval datasets are adapted from the [Ancient Chinese Corpus with Word Sense Annotation](https://github.com/iris2hu/ancient_chinese_sense_annotation). We sincerely thank the authors of these projects for their contributions to the community.
